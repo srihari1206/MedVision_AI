@@ -1,0 +1,35 @@
+# Environments
+venv/
+env/
+.env
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Databases & Caches
+chroma_db/
+*.sqlite3
+.pytest_cache/
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MacOS specific
+.DS_Store
+
+# Streamlit specific
+.streamlit/
+
+# Temporary files / Logs
+*.log
+tmp/
+temp/
